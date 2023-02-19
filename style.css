@@ -632,7 +632,7 @@ z-index: 99;
 /*DESTAQUE*/
 .destaque{
     background-color: #000;
-    /*  background-image: url(IMG/PHOTO-2022-07-15-20-31-22.jpg); */
+    background-image: url(IMG/PHOTO-2022-07-15-20-31-22.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center top;
@@ -703,7 +703,7 @@ z-index: 99;
     color: #fff;
     
     background-color: #000;
-    background-image: url(IMG/PHOTO-2022-07-15-20-31-22.jpg);
+    /* background-image: url(IMG/PHOTO-2022-07-15-20-31-22.jpg); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center top;
