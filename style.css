@@ -43,7 +43,7 @@ iframe['style']{
 }
 
 /* Estilos para dispositivos móveis */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     
     /*BOX GERAL*/
 .container{
@@ -501,10 +501,27 @@ contato_form span{
     width: 100%;
 
 }
-.content{display: block; margin: 0 auto; padding: 40px 0; width: 80%; max-width: 1200px;}
-.clear{clear: both;}
-.fontzero{font-size: 0;}
-.border_bottom{padding-bottom: 30px; background: url(IMG/borda.jpg) center center;}
+.content{
+    display: block;
+    margin: 0 auto; 
+    padding: 40px 0; 
+    width: 80%; 
+    max-width: 1200px;
+}
+
+.clear{
+    clear: both;
+}
+
+.fontzero{
+    font-size: 0;
+}
+
+.border_bottom{
+    padding-bottom: 30px; 
+    background: url(IMG/borda.jpg) center center;
+}
+
 .border_bottom_destaque{float: left; width: 100%;}
 .backtopo{
     position: fixed; 
@@ -615,7 +632,7 @@ z-index: 99;
 /*DESTAQUE*/
 .destaque{
     background-color: #000;
-    background-image: url(IMG/PHOTO-2022-07-15-20-31-22.jpg);
+    /* background-image: url(IMG/PHOTO-2022-07-15-20-31-22.jpg); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center top;
