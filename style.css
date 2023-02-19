@@ -519,7 +519,7 @@ contato_form span{
 
 .border_bottom{
     padding-bottom: 30px; 
-    background: url(IMG/borda.jpg) center center;
+    /* background: url(IMG/borda.jpg) center center; */
 }
 
 .border_bottom_destaque{float: left; width: 100%;}
@@ -704,6 +704,7 @@ z-index: 99;
     
     background-color: #000;
     /* background-image: url(IMG/PHOTO-2022-07-15-20-31-22.jpg); */
+    background-image: url(https://www.google.com/maps/dir/-2.6027719,-44.1795267/citoclinica/@-4.3029391,-47.1470805,8z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x92c55fc91a38e36f:0xc03e1601c97c3378!2m2!1d-47.4826281!2d-5.5313051);
     background-size: cover;
     background-attachment: fixed;
     background-position: center top;
