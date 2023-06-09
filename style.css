@@ -960,6 +960,10 @@ contato_form span{
 @media screen and (max-width: 768px) {
   /*HEADER*/
   .main_logo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin-top: 50px;
     width: 50%;
     text-align: center;
     margin-bottom: 10px;
@@ -977,9 +981,9 @@ contato_form span{
     display: block;
     margin-bottom: 10px;
   }
-  .main_content {
-  margin-top: 80px; /* Ajuste o valor conforme necessário */
-}
+ 
+/*   margin-top: 80px; /* Ajuste o valor conforme necessário */ 
+
 
   
   /*DESTAQUE*/
