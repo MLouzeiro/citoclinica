@@ -960,12 +960,12 @@ contato_form span{
 @media screen and (max-width: 768px) {
   /*HEADER*/
   .main_logo {
-      position: fixed;
+      position: relative;
       top: 0;
       left: 0;
       bottom: 0;
       right: 0;
-      margin-top: 25px;
+      margin-top: 5px;
     width: 10%;
     text-align: center;
     margin-bottom: 5px;
@@ -993,7 +993,7 @@ contato_form span{
         left: 3;
         bottom: 3;
          right: 3;
-    display: center;
+    display: right;
     margin-bottom: 5px;
   }
  
