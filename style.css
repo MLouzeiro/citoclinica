@@ -1013,6 +1013,12 @@ contato_form span{
     float: none;
     padding: 10px;
   }
+    
+  .contato header, .contato_form H1{
+    width: 100%;
+    float: none;
+    padding: 10px;
+  }
   
   .contato_form .medium_1, .contato_form .medium {
     width: 100%;
