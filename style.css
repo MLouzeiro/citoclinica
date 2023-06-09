@@ -978,9 +978,11 @@ contato_form span{
     margin-top: 0;
     z-index: 9999;
        position: fixed;
-      top: 0;
-      left: 0;
-      margin-top: 20px;
+        top: 3;
+        left: 3;
+        bottom: 3;
+         right: 3;
+         margin-top: 20px;
   }
   
   .main_menu li {
