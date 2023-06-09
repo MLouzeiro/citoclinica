@@ -976,13 +976,14 @@ contato_form span{
     float: none;
     text-align: center;
     margin-top: 0;
-    z-index: 9999;
+      float: none;
+/*     z-index: 9999;
        position: fixed;
         top: 3;
         left: 3;
         bottom: 3;
          right: 3;
-         margin-top: 20px;
+         margin-top: 20px; */
   }
   
   .main_menu li {
