@@ -959,7 +959,26 @@ contato_form span{
 
 @media screen and (max-width: 768px) {
   /*HEADER*/
-  .main_logo {
+    
+    .main_logo {
+    width: 30%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .main_menu {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .main_menu li {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+/*   .main_logo {
       position: fixed;
       top: 0;
       left: 0;
@@ -984,7 +1003,7 @@ contato_form span{
         left: 3;
         bottom: 3;
          right: 3;
-         margin-top: 20px; */
+         margin-top: 20px; 
   }
   
   .main_menu li {
@@ -998,8 +1017,8 @@ contato_form span{
     margin-bottom: 5px;
   }
  
-/*   margin-top: 80px; /* Ajuste o valor conforme necessário */ 
-
+   margin-top: 80px; /* Ajuste o valor conforme necessário 
+ */
 
   
   /*DESTAQUE*/
