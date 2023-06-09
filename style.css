@@ -963,7 +963,7 @@ contato_form span{
       position: fixed;
       top: 0;
       left: 0;
-      margin-top: 20px;
+      margin-top: 10px;
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
@@ -975,6 +975,10 @@ contato_form span{
     text-align: center;
     margin-top: 0;
     z-index: 9999;
+       position: fixed;
+      top: 0;
+      left: 0;
+      margin-top: 20px;
   }
   
   .main_menu li {
