@@ -973,7 +973,7 @@ contato_form span{
   }
   
   .main_menu {
-    float: none;
+    
     text-align: center;
     margin-top: 0;
       margin-bottom: 5px;
@@ -988,7 +988,7 @@ contato_form span{
   }
   
   .main_menu li {
-      position: fixed;
+      position: relative;
         top: 3;
         left: 3;
         bottom: 3;
