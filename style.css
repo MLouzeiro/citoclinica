@@ -957,6 +957,69 @@ contato_form span{
     text-decoration: underline;
 }
 
+@media screen and (max-width: 768px) {
+  /*HEADER*/
+  .main_logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .main_menu {
+    float: none;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .main_menu li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /*DESTAQUE*/
+  .destaque header, .destaque_video {
+    width: 100%;
+    float: none;
+    padding: 10px;
+  }
+  
+  /*CURSO*/
+  .curso_item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  /*VIDEOAULAS*/
+  .videoaulas_videos article {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .videoaulas_videos {
+    width: 100%;
+    float: none;
+  }
+  
+  .videoaulas_sidebar {
+    width: 100%;
+    float: none;
+  }
+  
+  /*CONTATO*/
+  .contato header, .contato_form {
+    width: 100%;
+    float: none;
+    padding: 10px;
+  }
+  
+  .contato_form .medium_1, .contato_form .medium {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+}
 
 
 
