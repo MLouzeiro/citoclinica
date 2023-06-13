@@ -170,8 +170,9 @@ z-index: 99;
     background-attachment: fixed;
     background-position: center top;
     color: rgb(255, 255, 255);
-}
+
     /* cor dos textos */
+}
 
 .destaque header{
     float: left;
