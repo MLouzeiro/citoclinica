@@ -171,7 +171,7 @@ z-index: 99;
     background-position: center top;
     color: rgb(255,255,255);
 
-.destaque h1{
+.destaque .h1{
     color: rgb(255, 255, 255);
     /* cor dos textos */
 }
