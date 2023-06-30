@@ -38,9 +38,9 @@
                     <!--"#HOME" É UM LINK ANCORA QUE NOS LEVA PARA A MESMA PAGINA MAS ONDE TEMOS UM "ID"-->
                     <!--"_BANK" ME ABRE EM UMA NOVA GUIA-->
                     <li><a href="#home" title="Inicio">Home</a></li>
-                    <li><a href="#curso" title="Laboratório">Pacotes de exames</a></li>
+                    <li><a href="#check-up" title="Laboratório">Check-Up</a></li>
                     <!-- <li><a class="special" target="_blank" href="../meu_site/CSS/index.html" title="Laboratório Citoclinica">Laboratório Citoclinica</a></li> -->
-                    <li><a href="#videoaulas" title="Produção">Nosso Laboratório</a></li>
+                    <li><a href="#conteudos-educativos" title="Produção">Cont. Informativos</a></li>
                     <li><a href="#contato" title="Meu contato">Fale conosco</a></li>
                     <li><a href="#" title="Resultados online">Resultados online</a></li>
                     <!-- Lista não definida Aqui acaba minha lista de links do meu site-->
@@ -56,8 +56,8 @@
                 <article class="destaque container">
                     <div class="content">
                         <header>
-                            <h1>Venha nos fazer uma visita, e cuidar de sua saúde!</h1>
-                            <p class="tagline">Laboratório Citoclinica</p>
+                            <!-- <h1>Venha nos fazer uma visita, e cuidar de sua saúde!</h1>
+                            <p class="tagline">Laboratório Citoclinica</p> -->
 
                         </header>
                         <!-- Este é o meu video na qual está na minha página-->
@@ -68,6 +68,12 @@
                                  <iframe class="midia" src="IMG/video1.mp4" frameborder="0" allowfullscreen></iframe> 
                             </div>
                         </div>
+                        <!-- <div id="slideshow">
+                            <img src="imagem1.jpg" alt="Imagem 1">
+                            <img src="imagem2.jpg" alt="Imagem 2">
+                            <img src="imagem3.jpg" alt="Imagem 3">
+                          </div> -->
+                         
                         <div class="clear"></div>
                     </div>
                 </article>
@@ -75,45 +81,45 @@
         </main>
         <!--            DESTAQUE DO SITE-->
 
-        <!--CURSO-->
-        <section class="container curso">
+        <!--check-up-->
+        <section class="container check-up">
             <div class="content">
                 <header class="big_title">
-                    <h1>Laboratório Citoclinica</h1>
+                    <h1>Checkup do Mês</h1>
                     <p class="tagline">Laboratório Citoclinica</p>
                 </header>
 
-                <article class="curso_item">
+                <article class="check-up_item">
                     <img title="Laboratório Citoclinica" alt="[Laboratório Citoclinica]" src="IMG/Imagem1.jpeg"/>
                     <h1>Bloco da prevenção</h1>
                     <p> Venha fazer seu check-up aqui no Laboratório citoclinica</p>
-                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b>Materia</b></span>
+                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b>Citoclinica</b></span>
                 </article>
 
-                <article class="curso_item">
+                <article class="check-up_item">
                     <img title="Laboratório Citoclinica" alt="[Laboratório Citoclinica]" src="IMG/Imagem2.jpeg"/>
                     <h1>Check-Up pré-natal</h1>
                     <p>Laboratório Citoclinica</p>
-                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b>Materia</b></span>
+                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b>Citoclinica</b></span>
                 </article>
 
-                <article class="curso_item">
-                    <img title="" alt="[Laboratório Citoclinica]" src="IMG/Imagem5.jpeg"/>
+                <article class="check-up_item">
+                    <img title="Laboratório Citoclinica" alt="[Laboratório Citoclinica]" src="IMG/Imagem5.jpeg"/>
                     <h1>Check-Up Mulher</h1>
                     <p>Laboratório Citoclinica</p>
-                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b>Materia</b></span>
+                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b>Citoclinica</b></span>
                 </article>
 
-                <article class="curso_item">
-                    <img title="" alt="[Laboratório Citoclinica]" src="IMG/Imagem4.jpeg"/>
+                <article class="check-up_item">
+                    <img title="Laboratório Citoclinica" alt="[Laboratório Citoclinica]" src="IMG/Imagem4.jpeg" class="logo_item"/>
                     <h1>Check-Up Idoso</h1>
                     <p>Laboratório Citoclinica</p>
-                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b>Materia</b></span>
+                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b>Citoclinica</b></span>
                 </article>
                 <div class="clear"></div>
             </div>
 
-            <footer class="container cursos_footer">
+            <footer class="container check-ups_footer">
                 <div class="content">
                     <img title="Confira nossos trabalhos" alt="[confira nossos trabalhos]" src="IMG/logo.png"/>
                     <h1>Seja bem vindos</h1>
@@ -126,40 +132,40 @@
 
             <!--PRODUÇÃO-->
 
-            <section class="container videoaulas">
+            <section class="container conteudos-educativos">
                 <div class="content">
                     <div class="content">
                         <header class="big_title">
-                            <h1>Laboratório Citoclinica</h1>
+                            <h1>Conteúdos informativos</h1>
                             <p class="tagline">Laboratório Citoclinica</p>
                         </header>
         
-                        <article class="curso_item">
+                        <article class="check-up_item">
                             <img title="Laboratório Citoclinica" alt="[Laboratório Citoclinica]" src="IMG/Imagem1.jpeg"/>
                             <h1>Laboratório Citoclinica</h1>
                             <p> Laboratório Citoclinica</p>
-                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b>Materia</b></span>
+                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b>Citoclinica</b></span>
                         </article>
         
-                        <article class="curso_item">
+                        <article class="check-up_item">
                             <img title="Laboratório Citoclinica" alt="[Laboratório Citoclinica]" src="IMG/Imagem2.jpeg"/>
                             <h1>Laboratório Citoclinica</h1>
                             <p>Laboratório Citoclinica</p>
-                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b>Materia</b></span>
+                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b>Citoclinica</b></span>
                         </article>
         
-                        <article class="curso_item">
+                        <article class="check-up_item">
                             <img title="" alt="[Laboratório Citoclinica]" src="IMG/Imagem5.jpeg"/>
                             <h1>Laboratório Citoclinica</h1>
                             <p>Laboratório Citoclinica</p>
-                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b>Materia</b></span>
+                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b>Citoclinica</b></span>
                         </article>
         
-                        <article class="curso_item">
+                        <article class="check-up_item">
                             <img title="" alt="[Laboratório Citoclinica]" src="IMG/Imagem4.jpeg"/>
                             <h1>Laboratório Citoclinica</h1>
                             <p>Laboratório Citoclinica</p>
-                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b>Materia</b></span>
+                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b>Citoclinica</b></span>
                         </article>
                         <div class="clear"></div>
                     </div>
@@ -171,51 +177,51 @@
                         <p class="tagline">Confira nossa produção</p>
                     </header>
 
-                    <div class="videoaulas_videos">
-                        <article class="curso_item">
+                    <div class="conteudos-educativos_videos">
+                        <article class="check-up_item">
                             <img title="Laboratório Citoclinica" alt="[Laboratório Citoclinica]" src="IMG/logo.png"/>
                             <h1>Laboratório Citoclinica</h1>
 
                             <p></p>
-                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b></b></span>
+                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b></b></span>
                         </article>
 
-                        <article class="curso_item">
+                        <article class="check-up_item">
                             <img title="Laboratório Citoclinica" alt="[Laboratório Citoclinica]" src="IMG/logo.png"/>
                             <h1>Laboratório Citoclinica</h1>
                             <p></p>
-                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b>Materia</b></span>
+                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b>Citoclinica</b></span>
                         </article>
 
-                        <article class="curso_item">
+                        <article class="check-up_item">
                             <img title="Laboratório Citoclinica" alt="[Laboratório Citoclinica]" src="IMG/logo.png"/>
                             <h1>Laboratório Citoclinica</h1>
                             <p></p>
-                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b>Materia</b></span>
+                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b>Citoclinica</b></span>
                         </article> -->
 
-                        <!-- <article class="curso_item">
+                        <!-- <article class="check-up_item">
                             <img title="Diretoria" alt="[Jesus salva]" src="IMG/carteiras novas diertoria.png"/>
                             <h1>Diretoria</h1>
                             <p></p>
-                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> em <b>Materia</b></span>
+                            <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/y \á\s H:i\h\s'); ?></time> no <b>Citoclinica</b></span>
                         </article> -->
                     <!-- </div> -->
 
-                    <!-- <aside class="videoaulas_sidebar">
+                    <!-- <aside class="conteudos-educativos_sidebar">
                         <div class="border_bottom">
                             <div class="content">
                                 <header>
                                     <h1 class="title">Comentários</h1>
                                 </header>
 
-                                <article class="videoaulas_sidebar_coment">
+                                <article class="conteudos-educativos_sidebar_coment">
                                     <img title="Comentário de Marcio Rogerio" alt="[Comentário de Marcio Rogerio]" src="IMG/logo.png"/>
                                     <h1><span class="fontzero">Comentario de </span>Marcio Louzeiro</h1>
                                     <p>E, eis que cedo venho, e o meu galardão está comigo, para dar a cada um segundo a sua obra.</p>                    
                                 </article>
 
-                                <article class="videoaulas_sidebar_coment">
+                                <article class="conteudos-educativos_sidebar_coment">
                                     <img title="Comentário de Marcio Rogerio" alt="[Comentário de Marcio Rogerio]" src="IMG/logo.png"/>
                                     <h1><span class="fontzero">Comentario de </span>Laboratório Citoclinica</h1>
                                     <p>Venha realizar seus exames aqui.</p>                    
@@ -317,6 +323,8 @@
             <!--AQUI É SCRIPT DO JQUERY-->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
             <script src="Js/jquery.js"></script>
+            <script src="Js/scripts.js"></script>
+
             <script src="Js/scripts.js"></script>
 
 
